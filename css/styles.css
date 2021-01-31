@@ -151,3 +151,25 @@ body {
   transform: translateX(0);
   transition-delay: 0.3s;
 }
+
+@media(max-width: 425px) {
+  .article h2 {
+    font-size: 28px;
+  }
+
+  .article span {
+    font-size: 14px;
+  }
+  .article figcaption {
+    font-size: 18px;
+  }
+
+  .article p {
+    font-size: 14px;
+  }
+
+  .menu-list {
+    padding-left: 15px;
+    font-size: 14px;
+  }
+}
