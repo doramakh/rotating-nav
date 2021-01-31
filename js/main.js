@@ -18,4 +18,16 @@ var createElement = function (element, elementClass, text) {
   };
 };
 
+var elContainer = $_('.container')
+var elOpenBtn = $_('.btn-open')
+var elCloseBtn = $_('.btn-close')
+
+elOpenBtn.addEventListener('click', () => {
+  elContainer.classList.add('open-menu')
+})
+
+elCloseBtn.addEventListener('click', () => {
+  elContainer.classList.remove('open-menu')
+})
+
 
